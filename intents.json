@@ -1,0 +1,29 @@
+{
+    "intents": [
+        {
+            "tag": "saludo",
+            "patterns": ["hola", "que tal", "como estas", "saludos", "buenos dias", "buenas tardes"],
+            "responses": ["Hola!", "Buenos dias!", "¿Como estas?", "¡Hola! ¿En que puedo ayudarte con tu envio hoy?", "Saludos, ¿como puedo asistirte?"]
+        },
+        {
+            "tag": "nombre",
+            "patterns": ["como es tu nombre", "como te llamas", "cual es tu nombre", "quien eres"],
+            "responses": ["Me llamo KINGBOT", "Mi nombre es KINGBOT", "Soy KINGBOT, tu asistente de paqueteria", "Soy KINGBOT, aqui para ayudarte con tus envios"]
+        },
+        {
+            "tag": "rastreo",
+            "patterns": ["donde esta mi paquete", "rastreo de paquete", "quiero rastrear mi paquete", "estado de mi paquete"],
+            "responses": ["Por favor, proporciona tu numero de seguimiento para verificar el estado de tu paquete.", "Necesito tu numero de seguimiento para rastrear tu paquete.", "¿Puedes darme tu numero de seguimiento?", "Con gusto, dame el numero de seguimiento de tu paquete para revisarlo."]
+        },
+        {
+            "tag": "horarios",
+            "patterns": ["horarios de entrega", "a que hora entregan", "cuales son sus horarios", "horarios de atencion"],
+            "responses": ["Nuestros horarios de entrega son de lunes a viernes de 9 AM a 6 PM.", "Entregamos paquetes de lunes a viernes entre las 9 AM y las 6 PM.", "Nuestro horario de atencion es de lunes a viernes de 9 AM a 6 PM.", "Las entregas se realizan de lunes a viernes de 9 AM a 6 PM."]
+        },
+        {
+            "tag": "costo_envio",
+            "patterns": ["cuanto cuesta el envio", "precio del envio", "tarifas de envio", "costos de envio"],
+            "responses": ["El costo del envio depende del tamaño y peso del paquete, asi como del destino. Por favor, proporciona mas detalles para darte una tarifa exacta.", "Nuestras tarifas varian segun el tamaño, peso y destino del paquete. ¿Puedes darme mas informacion sobre tu envio?", "Para conocer el costo exacto del envio, necesito saber el tamaño, peso y destino del paquete.", "El precio del envio varia segun varios factores. Por favor, proporcioname los detalles del paquete."]
+        }
+    ]
+}
